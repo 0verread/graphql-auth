@@ -48,7 +48,6 @@ source venv/bin/activate
 ```
 pip3 install -r requirements.txt
 ```
-
 Don't forget to put new dependencies in the `requirements.txt` file using `freeze` command. If you don't know about it, Google it. 
 
 4. run the server
