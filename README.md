@@ -13,8 +13,8 @@ This README would normally document whatever steps are necessary to get your app
 * Summary of set up
 
 Beginning of the backend server. This is a django application exposing GraphQL APIs.
-Mutaions -> Write operations
-Queries -> Read operations
+Mutaions -> Write operations.
+Queries -> Read operations.
 
 * Database configuration
 
@@ -22,15 +22,15 @@ Queries -> Read operations
 ```
 brew install libpq
 ```
-for [ref] (https://stackoverflow.com/questions/44654216/correct-way-to-install-psql-without-full-postgres-on-macos)
+for [ref](https://stackoverflow.com/questions/44654216/correct-way-to-install-psql-without-full-postgres-on-macos)
 
-start services using `brew service start postgreql` command.
+start services using `brew service start postgres` command.
 
 2. Craate a user ( or exisiting user can be used)
 3. create local db
 4. run all sql scripts from core/assets folder.
 
-__Note: Do not run migration on DB. we don't create tables using migrations, we create manually by running scripts. This is give us more freedom on manipulation db tables and views.
+__Note: Do not run migration on DB. we don't create tables using migrations, we create manually by running scripts. This is give us more freedom on manipulation db tables and views.__
 
 * Running Server
 1. Create a virtual env on the root folder.
@@ -45,7 +45,6 @@ source venv/bin/activate
 ```
 
 3. Install all dependencies
-
 ```
 pip3 install -r requirements.txt
 ```
