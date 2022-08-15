@@ -2,6 +2,8 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
+**This is a ready-to-use graphql authentication authorization API. This is under-development phase**
+
 ### What is this repository for? ###
 
 * The whole api architech
