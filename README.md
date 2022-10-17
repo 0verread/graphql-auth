@@ -69,4 +69,4 @@ python manage.py runserver
 
 ### Who do I talk to? ###
 
-* Subhajit and Ritwik
+* Subhajit
